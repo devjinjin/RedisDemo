@@ -1,6 +1,8 @@
 # .net core/blazor Redis 샘플 코드
 
-##Docker
+아래 redis 환경을 맞춘후 소스코드를 통해 테스트를 한다
+
+##Docker (redis)
 ```
 docker run --name my-redis -p 5002:6379 -d redis
 
@@ -23,4 +25,5 @@ scan 0
 => 1) "0"
 2) (empty array)
 ```
+
 
