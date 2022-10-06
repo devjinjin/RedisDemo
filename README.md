@@ -9,8 +9,9 @@ docker ps -a
 docker exec -it my-redis sh
 
 redis-cli
+```
 
-## redis-cli 테스트
+### redis-cli 테스트
 ```
 ping
 =>PONG
@@ -22,4 +23,4 @@ scan 0
 => 1) "0"
 2) (empty array)
 ```
-```
+
